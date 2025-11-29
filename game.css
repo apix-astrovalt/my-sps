@@ -1,0 +1,155 @@
+* {
+
+    margin: 20;
+
+    padding: 20;
+
+    border-radius: 50px;
+
+
+
+}
+
+h1{
+
+color: rgb(255, 255, 255);
+font-style:italic;
+text-align: center;
+background-color:rgb(2, 18, 78);
+line-height: 5rem;
+height: 5rem;
+}
+
+img {
+
+object-fit: cover;
+border:  8px solid rgb(5, 34, 92);
+border-radius: 50%;
+height: 100px;
+width: 100px;
+
+
+
+}
+
+.choice {
+
+height: 165px;
+width:165px ;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+}
+.choices {
+
+display: flex;
+justify-content: center;
+gap: 1rem;
+
+
+
+}
+
+
+.score-container {
+
+text-align: center;
+display: flex;
+gap: 3rem;
+justify-content: center;
+
+
+}
+
+.msg-container {
+
+text-align: center;
+margin-top: 3rem;
+
+
+} 
+
+.choice:hover{
+
+opacity:.4;
+cursor: pointer;
+background-color: dimgrey;
+
+
+}
+
+#user,#comp {
+
+font-size: 2rem;
+
+
+
+
+}
+
+
+#msg{
+
+
+background-color: rgb(6, 6, 72);
+color: azure;
+line-height:5rem ;
+font-size: larger;
+font-style: italic;
+margin-top: 5rem;
+display: inline;
+padding: 1rem;
+border-radius:1rem;
+
+}
+#msg:hover{
+
+opacity: .5;
+cursor: pointer;
+background-color: grey;
+border: 5rem;
+
+
+}
+
+
+.container {
+    width: 350px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(11, 178, 190, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.051);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.564);
+}
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff00c8, #00d4ff, #002fff);
+    background-size: 600% 600%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+ 
+
+
+
+
+
+
+
+
