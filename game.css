@@ -144,7 +144,14 @@ body {
     100% { background-position: 0% 50%; }
 }
 
+@media (max-width: 480px) {
+    img {
+        height: 70px;
+        width: 70px;
+    }
+}
  
+
 
 
 
